@@ -6,6 +6,10 @@ font-family: 'Thasadith', sans-serif;
 font-family: 'Wix Madefor Display', sans-serif;
  */
 
+body {
+  margin: 10px auto;
+}
+
 h1 {
   font-family: "Sarabun", sans-serif;
 }
@@ -15,7 +19,8 @@ h3 {
   font-family: "Wix Madefor Display", sans-serif;
 }
 
-p {
+h4,
+h5 {
   font-family: "Thasadith", sans-serif;
   padding: 30px;
   font-weight: 800;
@@ -62,34 +67,42 @@ p {
 }
 
 .container {
-  border: 1px solid whitesmoke;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 15px auto;
   margin: 0 auto;
-}
-
-.container .explore-gallery {
-  border: 1px solid pink;
+  padding: 0;
+  max-width: 1400px;
 }
 
 div.col-md-4 {
-  display: flex;
+  display: block;
   align-items: center;
+  max-height: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 15px 0;
   margin: 15px auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .explore-img {
   border-radius: 35px;
-  padding: 3px;
-  margin: 10px;
+  margin: 2px auto;
+  padding: 5px;
   background-color: whitesmoke;
   border: lightblue;
+  max-width: 80%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .hero h1 {
     font-size: 56px;
+  }
+
+  div.col-md-4 {
+    display: block;
+    height: 420px;
   }
 }
