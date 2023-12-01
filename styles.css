@@ -12,11 +12,14 @@ body {
 
 h1 {
   font-family: "Sarabun", sans-serif;
+  line-height: 80px;
 }
 
 h2,
 h3 {
   font-family: "Wix Madefor Display", sans-serif;
+  padding-top: 35px;
+  line-height: 40px;
 }
 
 h4,
@@ -27,7 +30,7 @@ h5 {
 }
 
 .hero {
-  background-color: bisque;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
   text-align: center;
   padding: 160px;
 }
@@ -43,21 +46,27 @@ h5 {
 .btn {
   color: whitesmoke;
   text-decoration: none;
-  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  /* background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
   border: 3px solid whitesmoke;
   border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  padding-top: 20px;
   margin: 10px auto;
 }
 
-.btn:hover {
+.btn:visited {
   color: rgb(138, 43, 226);
   text-decoration: none;
   background-color: whitesmoke;
   border: 3px solid rgb(138, 43, 226);
 }
 
-.btn:visited {
+.btn:hover {
   background: radial-gradient(
     circle at 10% 20%,
     rgb(116, 203, 199) 0%,
