@@ -29,10 +29,31 @@ h5 {
   font-weight: 800;
 }
 
-p {
+footer {
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  padding: 30px;
+}
+
+.container.footer {
+  padding: 0 55px;
+}
+
+div.footer-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+p.para-description {
   font-family: "Thasadith", sans-serif;
   font-weight: bolder;
   font-size: 18px;
+}
+
+.footer-text {
+  font-size: 10px;
 }
 
 .hero {
