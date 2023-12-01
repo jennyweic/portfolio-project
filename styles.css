@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-family: "Sarabun", sans-serif;
-  line-height: 80px;
+  line-height: 90px;
 }
 
 h2,
@@ -37,6 +37,19 @@ h5 {
 
 .hero h1 {
   font-size: 96px;
+}
+
+.hero h1:hover {
+  stroke: rgb(177, 173, 219);
+  stroke-width: 3;
+  background: linear-gradient(
+    109.6deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .hero h3 {
