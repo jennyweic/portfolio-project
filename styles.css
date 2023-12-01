@@ -22,6 +22,7 @@ p {
 .hero {
   background-color: bisque;
   text-align: center;
+  padding: 160px;
 }
 
 .hero h1 {
@@ -50,4 +51,10 @@ p {
   color: rgb(66, 139, 66);
   background-color: rgb(138, 43, 226);
   border: 3px solid bisque;
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .hero h1 {
+    font-size: 56px;
+  }
 }
