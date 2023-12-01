@@ -31,3 +31,23 @@ p {
 .hero h3 {
   font-size: 26px;
 }
+
+.btn {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: rgb(138, 43, 226);
+  border: 3px solid whitesmoke;
+}
+
+.btn:hover {
+  color: rgb(138, 43, 226);
+  text-decoration: none;
+  background-color: whitesmoke;
+  border: 3px solid rgb(138, 43, 226);
+}
+
+.btn:visited {
+  color: rgb(66, 139, 66);
+  background-color: rgb(138, 43, 226);
+  border: 3px solid bisque;
+}
