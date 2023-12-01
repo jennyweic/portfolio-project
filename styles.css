@@ -124,7 +124,7 @@ div.col-md-4 {
 
 section {
   background-color: pink;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   align-self: flex-end;
@@ -145,7 +145,7 @@ section {
 }
 
 .container.footer {
-  padding: 0 55px;
+  padding: 0 35px;
 }
 
 div.footer-grid {
@@ -160,7 +160,13 @@ div.footer-grid {
   font-size: 10px;
 }
 
-@media (max-width: 600px) {
+div.col-md-6.footer-grid {
+  margin: 0px auto;
+  font-size: 10px;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
   .hero h1 {
     font-size: 56px;
   }
@@ -168,5 +174,15 @@ div.footer-grid {
   div.col-md-4 {
     display: block;
     height: 420px;
+  }
+
+  div.footer-grid {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  div.col-md-6.footer-grid {
+    padding: 0;
+    flex-wrap: wrap;
   }
 }
