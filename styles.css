@@ -43,8 +43,11 @@ h5 {
 .btn {
   color: whitesmoke;
   text-decoration: none;
-  background-color: rgb(138, 43, 226);
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
   border: 3px solid whitesmoke;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  margin: 10px auto;
 }
 
 .btn:hover {
@@ -55,9 +58,12 @@ h5 {
 }
 
 .btn:visited {
-  color: rgb(66, 139, 66);
-  background-color: rgb(138, 43, 226);
-  border: 3px solid bisque;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
+  border: 3px solid rgb(61, 109, 106);
 }
 
 .subheadings {
