@@ -122,17 +122,19 @@ div.col-md-4 {
 }
 
 section {
-  background-color: pink;
-  display: block;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-self: flex-end;
+  align-items: center;
+  text-align: center;
 }
 
 .explore-img {
   border-radius: 35px;
   border: 0.1rem solid rgb(197, 197, 197);
   background-color: whitesmoke;
+  object-fit: cover;
+  height: 100%; /* Set the height of the image to 100% */
 }
 
 .explore-img.img-fluid {
