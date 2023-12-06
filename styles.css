@@ -234,6 +234,46 @@ div.col-md-6.footer-grid {
   padding: 50px;
 }
 
+#search-function {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+}
+
+#formInput {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  height: 55px;
+}
+
+#search-button {
+  display: flex;
+  justify-content: center;
+  background-color: orangered;
+  border-radius: 10px;
+  width: 10%;
+  height: 55px;
+  color: whitesmoke;
+  text-decoration: none;
+  /* background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%); */
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(116, 203, 199) 0%,
+    rgb(220, 246, 200) 90%
+  );
+  border: 3px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 56px;
