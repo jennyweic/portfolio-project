@@ -274,6 +274,40 @@ div.col-md-6.footer-grid {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
+/* contact */
+
+.contact-heading container {
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.contact-heading h1 {
+  font-size: 64px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.contact-heading h2 {
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 5px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+  border: 3px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  width: 50%;
+}
+
+.contact-heading p {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 56px;
