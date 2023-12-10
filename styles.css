@@ -191,6 +191,10 @@ div.col-md-6.footer-grid {
 .about-heading.container {
   margin: 0 auto;
   padding: 100px 50px;
+  max-width: 1400px;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .about-heading img {
@@ -338,7 +342,6 @@ div.col-md-6.footer-grid {
   }
 
   div.footer-grid {
-    display: block;
     flex-wrap: wrap;
   }
 
@@ -347,7 +350,9 @@ div.col-md-6.footer-grid {
     flex-wrap: wrap;
   }
 
-  .container {
+  .container,
+  .about-heading.container,
+  .about-buttons container {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
