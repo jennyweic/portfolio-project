@@ -102,11 +102,12 @@ footer {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 0 auto;
   padding: 0;
   max-width: 1400px;
   position: relative;
+  overflow-x: auto;
 }
 
 div.col-md-4 {
@@ -333,6 +334,7 @@ div.col-md-6.footer-grid {
   div.col-md-4 {
     display: block;
     height: 420px;
+    max-width: 80%;
   }
 
   div.footer-grid {
@@ -343,5 +345,22 @@ div.col-md-6.footer-grid {
   div.col-md-6.footer-grid {
     padding: 0;
     flex-wrap: wrap;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  div.horizontal-scroll {
+    overflow-x: hidden;
+    display: flex;
   }
 }
