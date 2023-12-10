@@ -352,7 +352,7 @@ div.col-md-6.footer-grid {
 
   .container,
   .about-heading.container,
-  .about-buttons container {
+  .about-buttons.container {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
