@@ -192,7 +192,7 @@ div.col-md-6.footer-grid {
   margin: 0 auto;
   padding: 100px 50px;
   max-width: 1400px;
-  overflow-x: auto;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
 }
