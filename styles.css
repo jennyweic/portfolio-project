@@ -192,7 +192,7 @@ div.col-md-6.footer-grid {
   margin: 0 auto;
   padding: 100px 50px;
   max-width: 1400px;
-  overflow-x: hidden;
+  overflow-x: auto;
   display: flex;
   justify-content: center;
 }
@@ -220,8 +220,8 @@ div.col-md-6.footer-grid {
   padding: 50px;
 }
 
-.about-buttons {
-  display: block;
+.container.about-buttons {
+  display: flex;
   text-align: center;
   margin: 0 auto;
   padding: 50px 0px;
@@ -350,7 +350,11 @@ div.col-md-6.footer-grid {
     flex-wrap: wrap;
   }
 
-  .container,
+  .container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
   .about-heading.container {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -364,7 +368,7 @@ div.col-md-6.footer-grid {
   }
 
   div.horizontal-scroll {
-    overflow-x: hidden;
     display: flex;
+    overflow-x: hidden;
   }
 }
